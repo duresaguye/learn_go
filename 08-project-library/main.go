@@ -90,9 +90,18 @@ func main() {
 	// Pre-populate some books
 	library.AddBook("The Go Programming Language", "Alan A. A. Donovan")
 	library.AddBook("Clean Code", "Robert C. Martin")
+	library.AddBook("Introduction to Algorithms", "Thomas H. Cormen")
+	library.AddBook("Design Patterns", "Erich Gamma")
+	library.AddBook("The Pragmatic Programmer", "Andrew Hunt")
 
 	fmt.Println("\nWelcome to the Library System!")
 	fmt.Println("Commands: add, borrow, return, list, quit")
+	fmt.Println("Examples:")
+	fmt.Println("  add The Hobbit by J.R.R. Tolkien")
+	fmt.Println("  borrow 1")
+	fmt.Println("  return 1")
+	fmt.Println("  list")
+	fmt.Println("  quit")
 
 	for {
 		fmt.Print("\n> ")
